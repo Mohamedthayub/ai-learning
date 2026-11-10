@@ -1,13 +1,14 @@
-# def removeDuplicates(arr):
-#     for
+arr = [1,1,2,2,3,4,5,6,7];
 
-arr = [1,2,3,4,5,1,]
-# names = ["one","two","three","four"]
+frequency = {};
+for number in arr:
+    frequency[number] = frequency.get(number,0) + 1;
 
-temp = []
-for i  in range(0,len(arr)- 1):
-    if(arr[i] != arr[i+1]):
-        temp.append(arr[i])
+unique = [];
+for num in frequency:
+    unique.append(num)
 
+print(unique)
 
-print(temp)
+# remove duplicates from the array 
+
