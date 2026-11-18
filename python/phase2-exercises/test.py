@@ -1,6 +1,2 @@
-number = input("Enter the number")
-
-if not  number:
-    print("Please enter the number")
-else:
-    print("you have enter the number")
+number1 = int(input("Enter the Number 1 : "))
+number2 = int(input("Enter the Number 2 :"))
